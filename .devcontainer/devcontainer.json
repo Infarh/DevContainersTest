@@ -1,0 +1,13 @@
+{
+    "name": "Test dotnet sample",
+    "dockerFile": "Dockerfile",
+    "appPort": 5000,
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-dotnettools.csdevkit"],
+            "settings": {
+                "terminal.integrated.shellIntegration.enabled": true
+            }
+        }
+    }
+}
